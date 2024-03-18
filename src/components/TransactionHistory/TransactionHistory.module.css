@@ -1,0 +1,21 @@
+.table {
+  border: 2px solid black;
+  width: 100%;
+}
+.tableHeader {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tableBody {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.tableBody > *:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.295);
+}
+.table td {
+  border: 1px solid black;
+}
